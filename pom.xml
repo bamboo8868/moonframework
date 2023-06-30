@@ -3,12 +3,17 @@
     <version>0.0.1</version>
     <groupId>moon</groupId>
     <artifactId>framework</artifactId>
+    <properties>
+        <netty.version>4.1.87.Final</netty.version>
+        <maven.compile.source>11</maven.compile.source>
+        <maven.compile.target>11</maven.compile.target>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.1.87.Final</version>
+            <version>${netty.version}</version>
         </dependency>
     </dependencies>
 </project>
